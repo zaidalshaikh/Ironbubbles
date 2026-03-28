@@ -41,7 +41,7 @@ export default function Navbar() {
         <Link href="/">
           <a className="flex items-center group">
             <div className="relative h-10 md:h-12 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
-              <img src="/images/logo.png" alt="Iron Bubbles" className="h-full w-auto object-contain drop-shadow-md" />
+             <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Iron Bubbles" />
             </div>
           </a>
         </Link>
