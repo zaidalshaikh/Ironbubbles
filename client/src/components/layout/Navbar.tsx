@@ -40,9 +40,13 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <Link href="/">
           <a className="flex items-center group">
-            <div className="relative h-10 md:h-12 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
-             <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Iron Bubbles" />
-            </div>
+           <div className="relative h-8 md:h-9 flex items-center justify-center transition-transform duration-300 group-hover:scale-105">
+  <img
+    src={`${import.meta.env.BASE_URL}images/logo.png`}
+    alt="Iron Bubbles"
+    className="h-full w-auto max-w-[140px] md:max-w-[170px] object-contain drop-shadow-md"
+  />
+</div>
           </a>
         </Link>
 
