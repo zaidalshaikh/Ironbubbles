@@ -3,9 +3,9 @@ import { ArrowUpRight, ArrowUpLeft } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const projectImages = [
-  "/images/project-1.png",
-  "/images/project-2.png",
-  "/images/project-3.png"
+  `${import.meta.env.BASE_URL}images/project-1.png`,
+  `${import.meta.env.BASE_URL}images/project-2.png`,
+  `${import.meta.env.BASE_URL}images/project-3.png`,
 ];
 
 export default function Projects() {
