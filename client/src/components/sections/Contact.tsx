@@ -45,8 +45,8 @@ export default function Contact() {
                 <div>
                   <h4 className="text-white font-medium mb-1">{t.contact.inquiries}</h4>
                   <p className={`text-zinc-400 font-light text-sm ${dir === 'rtl' ? 'dir-ltr text-right inline-block' : ''}`}>
-                    <a href="mailto:info@ironbubbles.com" className="hover:text-white transition-colors">info@ironbubbles.com</a><br />
-                    <a href="tel:+15551234567" className="hover:text-white transition-colors">+1 (555) 123-4567</a>
+                    <a href="mailto:loai.abdelrahim@ironbubbles-adv.com" className="hover:text-white transition-colors">loai.abdelrahim@ironbubbles-adv.com</a><br />
+                    <a href="tel:+962780820808" className="hover:text-white transition-colors">+962 780820808</a>
                   </p>
                 </div>
               </div>
