@@ -9,11 +9,7 @@ export default function Hero() {
     <section className="relative min-h-[90vh] flex items-center pt-24 overflow-hidden" dir={dir}>
       {/* Background Image & Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="/images/hero-bg.png" 
-          alt="Abstract dark industrial background" 
-          className="w-full h-full object-cover opacity-60"
-        />
+       <img src={`${import.meta.env.BASE_URL}images/hero-bg.png`} alt="" />
         <div className="absolute inset-0 bg-gradient-to-b from-zinc-950/80 via-zinc-950/60 to-zinc-950"></div>
         
         {/* Subtle animated overlay elements */}
