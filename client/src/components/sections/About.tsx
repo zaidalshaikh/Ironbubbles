@@ -28,7 +28,11 @@ export default function About() {
             </div>
             
             <div className="mt-12 flex items-center gap-4">
-              <img src="/images/logo.png" alt="Iron Bubbles Symbol" className="w-12 h-12 opacity-50 grayscale" />
+           <img
+  src={`${import.meta.env.BASE_URL}images/logo.png`}
+  alt="Iron Bubbles Symbol"
+  className="w-12 h-12 opacity-50 grayscale"
+/>
               <div className={`h-px flex-1 bg-gradient-to-${dir === 'rtl' ? 'l' : 'r'} from-white/10 to-transparent`}></div>
             </div>
           </motion.div>
