@@ -125,8 +125,8 @@ export const translations = {
       title2: "Leadership.",
       description: "Guided by industry veterans with decades of combined experience in commercial production, fit-outs, and brand implementation.",
       items: [
-        { name: "James Thornton", role: "Chief Executive Officer" },
-        { name: "Amina Al-Fayed", role: "Head of Brand Production" },
+        { name: "Loai Abdelrahim", role: "Chief Executive Officer" },
+        { name: "Fadi Jamjoum", role: "Head of Brand Production" },
         { name: "Robert Chen", role: "VP of Operations & Delivery" },
         { name: "Sofia Rossi", role: "Director of Retail Solutions" }
       ]
