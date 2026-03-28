@@ -12,9 +12,13 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link href="/">
               <a className="flex items-center group mb-6">
-                <div className="relative h-12 md:h-14 flex items-center transition-transform duration-300 group-hover:scale-105">
-                 <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Iron Bubbles" />
-                </div>
+             <div className="relative h-10 md:h-11 flex items-center transition-transform duration-300 group-hover:scale-105">
+  <img
+    src={`${import.meta.env.BASE_URL}images/logo.png`}
+    alt="Iron Bubbles"
+    className="h-full w-auto max-w-[170px] md:max-w-[200px] object-contain drop-shadow-md"
+  />
+</div>
               </a>
             </Link>
             <p className={`text-zinc-400 text-sm leading-relaxed mb-6 ${language === 'ar' ? 'text-base' : ''}`}>
