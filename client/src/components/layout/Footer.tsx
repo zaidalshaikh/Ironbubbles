@@ -56,8 +56,8 @@ export default function Footer() {
             <h4 className="font-display font-medium text-white mb-6 tracking-wide">{t.footer.contactTitle}</h4>
             <ul className="space-y-4 text-sm text-zinc-400">
               <li>{t.footer.address1}<br/>{t.footer.address2}</li>
-              <li className={dir === 'rtl' ? 'dir-ltr text-right inline-block' : ''}><a href="mailto:info@ironbubbles.com" className="hover:text-white transition-colors">info@ironbubbles.com</a></li>
-              <li className={dir === 'rtl' ? 'dir-ltr text-right inline-block' : ''}><a href="tel:+15551234567" className="hover:text-white transition-colors">+1 (555) 123-4567</a></li>
+              <li className={dir === 'rtl' ? 'dir-ltr text-right inline-block' : ''}><a href="mailto:loai.abdelrahim@ironbubbles-adv.com" className="hover:text-white transition-colors">loai.abdelrahim@ironbubbles-adv.com</a></li>
+              <li className={dir === 'rtl' ? 'dir-ltr text-right inline-block' : ''}><a href="tel:+962780820808" className="hover:text-white transition-colors">+962 780820808</a></li>
             </ul>
           </div>
         </div>
