@@ -76,7 +76,7 @@ export default function Navbar() {
             <Button 
               className="bg-white text-black hover:bg-zinc-200 rounded-full px-6 py-5 font-medium hover-glow no-default-hover-elevate"
             >
-              {t.nav.getQuote}
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             </Button>
           </div>
         </div>
@@ -113,7 +113,7 @@ export default function Navbar() {
             </a>
           ))}
           <Button className="w-full mt-4 bg-white text-black hover:bg-zinc-200 rounded-full py-6 text-lg font-medium">
-            {t.nav.getQuote}
+           onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           </Button>
         </div>
       )}
