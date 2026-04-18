@@ -73,11 +73,11 @@ export default function Navbar() {
               <Globe size={16} />
               {language === 'en' ? 'العربية' : 'EN'}
             </button>
-            <Button 
-              className="bg-white text-black hover:bg-zinc-200 rounded-full px-6 py-5 font-medium hover-glow no-default-hover-elevate"
-            >
-              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-            </Button>
+            <Button
+  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+>
+  {t.nav.getQuote}
+</Button>
           </div>
         </div>
 
@@ -112,9 +112,11 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <Button className="w-full mt-4 bg-white text-black hover:bg-zinc-200 rounded-full py-6 text-lg font-medium">
-           onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-          </Button>
+         <Button
+  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+>
+  {t.nav.getQuote}
+</Button>
         </div>
       )}
     </nav>
