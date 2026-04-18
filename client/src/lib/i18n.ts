@@ -67,18 +67,18 @@ export const translations = {
       items: [
         {
           category: "Corporate Fit-out",
-          title: "Vanguard Corporate HQ",
-          description: "Custom architectural production and branded interior elements for a leading financial institution's main lobby."
+          title: "NHC Outdoor Experience Pavilion",
+          description: "A premium outdoor branded pavilion designed to strengthen corporate presence through bold architectural form, integrated lighting, and a refined visitor-facing experience."
         },
         {
           category: "Retail Implementation",
-          title: "Aura Retail Flagship",
-          description: "Comprehensive store fit-out with integrated brand displays, environmental graphics, and bespoke fixtures."
+          title: "Interactive Brand Activation Zone",
+          description: "A fully integrated event activation setup featuring custom-built branding elements, digital interfaces, and presentation-ready staging for impactful audience engagement."
         },
         {
           category: "Signage & Wayfinding",
-          title: "Nexus Tech Campus",
-          description: "Premium illuminated signage system and comprehensive brand wayfinding across a 50-acre corporate environment."
+          title: "Braun Illuminated Display Units",
+          description: "A striking retail display concept developed to highlight product identity through illuminated structures, embedded media screens, and a strong branded presence."
         }
       ]
     },
@@ -233,18 +233,18 @@ export const translations = {
       items: [
         {
           category: "تجهيز الشركات",
-          title: "المقر الرئيسي لشركة فانجارد",
-          description: "إنتاج معماري مخصص وعناصر داخلية ذات علامة تجارية للردهة الرئيسية لمؤسسة مالية رائدة."
+          title: "جناح NHC الخارجي",
+          description: "جناح خارجي راقٍ صُمم لتعزيز الحضور المؤسسي من خلال تكوين معماري بارز، وإضاءة مدمجة، وتجربة استقبال أنيقة للزوار."
         },
         {
           category: "تنفيذ التجزئة",
-          title: "متجر أورا الرئيسي",
-          description: "تجهيز متجر شامل مع عروض مدمجة للعلامة التجارية ورسومات بيئية وتجهيزات مخصصة."
+          title: "منطقة تفاعلية لتفعيل العلامة",
+          description: "منطقة تفعيل متكاملة للفعاليات تضم عناصر مخصصة للهوية، وواجهات رقمية، ومنصة عرض مهيأة لتقديم تجربة تفاعلية عالية التأثير."
         },
         {
           category: "اللافتات وأنظمة التوجيه",
-          title: "حرم نيكسوس التقني",
-          description: "نظام لافتات مضيئة فاخر وتوجيه شامل للعلامة التجارية عبر بيئة شركة تبلغ مساحتها 50 فداناً."
+          title: "وحدات عرض مضيئة لعلامة Braun",
+          description: "مفهوم عرض تجاري مميز تم تطويره لإبراز هوية المنتج من خلال هياكل مضيئة، وشاشات مدمجة، وحضور بصري قوي للعلامة التجارية."
         }
       ]
     },
